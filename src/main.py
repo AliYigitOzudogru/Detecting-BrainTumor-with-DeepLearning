@@ -29,7 +29,7 @@ from cv2 import imshow
 batch_size = 32
 img_height = 124
 img_width = 127
-data_dir = "/content/drive/My Drive/detecting_maleria_deeplearning/cell_images/"
+data_dir = "./dataset/"
 train_labels = os.listdir(data_dir)
 
 
@@ -148,7 +148,7 @@ plt.show()
 
 
 
-data_path = "/content/drive/My Drive/detecting_maleria_deeplearning/cell_images/Parasitized/C99P60ThinF_IMG_20150918_142128_cell_91.png"
+data_path = "./dataset/yes/"
 
 
 img = keras.preprocessing.image.load_img(
